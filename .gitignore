@@ -7,7 +7,8 @@
 __pycache__/
 venv*
 *.pyc
-config.json
+# config.json           # 24.1.10 添加注释，代表需要同步config.json文件    # 下面那句话24.1.10 添加，代表不希望同步其他目录下的config.json文件
+/plugins/*/config.json  
 QR.png
 nohup.out
 tmp
